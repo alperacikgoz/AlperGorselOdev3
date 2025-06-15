@@ -1,0 +1,12 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlperAcikogoz_Odev3.GorevEklePage"
+             Title="Yeni Görev">
+    <VerticalStackLayout Padding="24" Spacing="14">
+        <Entry x:Name="BaslikEntry" Placeholder="Başlık" />
+        <Editor x:Name="DetayEditor" Placeholder="Detay" AutoSize="TextChanges"/>
+        <DatePicker x:Name="TarihPicker" />
+        <TimePicker x:Name="SaatPicker" Time="12:00"/>
+        <Button Text="Kaydet" Clicked="OnKaydetClicked" BackgroundColor="#8F72F6" TextColor="White" />
+    </VerticalStackLayout>
+</ContentPage>

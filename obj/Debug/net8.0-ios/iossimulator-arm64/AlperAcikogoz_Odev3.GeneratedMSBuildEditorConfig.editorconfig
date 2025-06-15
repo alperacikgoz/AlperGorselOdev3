@@ -1,0 +1,113 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AlperAcikogoz_Odev3
+build_property.ProjectDir = /Users/alperacikgoz/AlperAcikogoz_Odev3/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[/Users/alperacikgoz/AlperAcikogoz_Odev3/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AlperAcikogoz_Odev3.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[/Users/alperacikgoz/AlperAcikogoz_Odev3/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AlperAcikogoz_Odev3.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[/Users/alperacikgoz/AlperAcikogoz_Odev3/AyarlarPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AlperAcikogoz_Odev3.AyarlarPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AyarlarPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AyarlarPage.xaml
+
+[/Users/alperacikgoz/AlperAcikogoz_Odev3/GorevDetayPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AlperAcikogoz_Odev3.GorevDetayPage.xaml
+build_metadata.AdditionalFiles.TargetPath = GorevDetayPage.xaml
+build_metadata.AdditionalFiles.RelativePath = GorevDetayPage.xaml
+
+[/Users/alperacikgoz/AlperAcikogoz_Odev3/GorevEklePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AlperAcikogoz_Odev3.GorevEklePage.xaml
+build_metadata.AdditionalFiles.TargetPath = GorevEklePage.xaml
+build_metadata.AdditionalFiles.RelativePath = GorevEklePage.xaml
+
+[/Users/alperacikgoz/AlperAcikogoz_Odev3/GorevlerPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AlperAcikogoz_Odev3.GorevlerPage.xaml
+build_metadata.AdditionalFiles.TargetPath = GorevlerPage.xaml
+build_metadata.AdditionalFiles.RelativePath = GorevlerPage.xaml
+
+[/Users/alperacikgoz/AlperAcikogoz_Odev3/HaberDetayPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AlperAcikogoz_Odev3.HaberDetayPage.xaml
+build_metadata.AdditionalFiles.TargetPath = HaberDetayPage.xaml
+build_metadata.AdditionalFiles.RelativePath = HaberDetayPage.xaml
+
+[/Users/alperacikgoz/AlperAcikogoz_Odev3/HaberlerPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AlperAcikogoz_Odev3.HaberlerPage.xaml
+build_metadata.AdditionalFiles.TargetPath = HaberlerPage.xaml
+build_metadata.AdditionalFiles.RelativePath = HaberlerPage.xaml
+
+[/Users/alperacikgoz/AlperAcikogoz_Odev3/HavaDurumuPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AlperAcikogoz_Odev3.HavaDurumuPage.xaml
+build_metadata.AdditionalFiles.TargetPath = HavaDurumuPage.xaml
+build_metadata.AdditionalFiles.RelativePath = HavaDurumuPage.xaml
+
+[/Users/alperacikgoz/AlperAcikogoz_Odev3/KurlarPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AlperAcikogoz_Odev3.KurlarPage.xaml
+build_metadata.AdditionalFiles.TargetPath = KurlarPage.xaml
+build_metadata.AdditionalFiles.RelativePath = KurlarPage.xaml
+
+[/Users/alperacikgoz/AlperAcikogoz_Odev3/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AlperAcikogoz_Odev3.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = LoginPage.xaml
+
+[/Users/alperacikgoz/AlperAcikogoz_Odev3/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AlperAcikogoz_Odev3.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[/Users/alperacikgoz/AlperAcikogoz_Odev3/RegisterPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AlperAcikogoz_Odev3.RegisterPage.xaml
+build_metadata.AdditionalFiles.TargetPath = RegisterPage.xaml
+build_metadata.AdditionalFiles.RelativePath = RegisterPage.xaml
+
+[/Users/alperacikgoz/AlperAcikogoz_Odev3/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AlperAcikogoz_Odev3.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+
+[/Users/alperacikgoz/AlperAcikogoz_Odev3/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AlperAcikogoz_Odev3.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/alperacikgoz/AlperAcikogoz_Odev3/YapilacaklarPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AlperAcikogoz_Odev3.YapilacaklarPage.xaml
+build_metadata.AdditionalFiles.TargetPath = YapilacaklarPage.xaml
+build_metadata.AdditionalFiles.RelativePath = YapilacaklarPage.xaml

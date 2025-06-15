@@ -1,0 +1,48 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlperAcikogoz_Odev3.KurlarPage"
+             Title="Kurlar"
+             BackgroundColor="#f8fafc">
+
+    <VerticalStackLayout Padding="20,40,20,14" Spacing="20">
+
+        <Label Text="💱 Döviz Kurları"
+               FontSize="25"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               TextColor="#2d3a4d"/>
+
+        <Frame Padding="10" BackgroundColor="#eaf1fb" CornerRadius="14" HasShadow="False">
+            <HorizontalStackLayout Spacing="10">
+                <Label Text="Güncelleme:" FontSize="14" TextColor="#455a64"/>
+                <Label x:Name="UpdateTimeLabel" FontSize="14" TextColor="#1976D2"/>
+                <ActivityIndicator x:Name="LoadingIndicator" IsRunning="False" IsVisible="False" Color="#1976D2" HeightRequest="22"/>
+            </HorizontalStackLayout>
+        </Frame>
+
+        <Button Text="Yenile" Clicked="OnRefreshClicked"
+                BackgroundColor="#1976D2"
+                TextColor="White"
+                CornerRadius="12"
+                FontAttributes="Bold"
+                HeightRequest="44"/>
+
+        <CollectionView x:Name="KurListView"
+                        ItemsLayout="VerticalGrid, 2"
+                        BackgroundColor="Transparent">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Padding="10" Margin="6"
+                           BackgroundColor="{Binding BgColor}"
+                           CornerRadius="18" HasShadow="True">
+                        <VerticalStackLayout HorizontalOptions="Center">
+                            <Label Text="{Binding Icon}" FontSize="28" HorizontalOptions="Center"/>
+                            <Label Text="{Binding Name}" FontSize="17" FontAttributes="Bold" TextColor="#2d3a4d" HorizontalOptions="Center"/>
+                            <Label Text="{Binding Fiyat}" FontSize="16" TextColor="#222" HorizontalOptions="Center"/>
+                        </VerticalStackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
+</ContentPage>

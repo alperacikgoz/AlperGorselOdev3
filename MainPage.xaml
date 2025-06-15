@@ -1,0 +1,33 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlperAcikogoz_Odev3.MainPage"
+             Title="Ana Sayfa">
+    <ScrollView>
+        <VerticalStackLayout Padding="32" Spacing="24" VerticalOptions="Center">
+            <Frame Padding="0" CornerRadius="100" HeightRequest="160" WidthRequest="160" HorizontalOptions="Center" HasShadow="True">
+                <Image Source="alper.jpg" 
+                       HeightRequest="160" 
+                       WidthRequest="160" 
+                       Aspect="AspectFill"/>
+            </Frame>
+
+            <Label Text="Alper Açıkgöz"
+                   FontSize="28"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+
+            <Label Text="Merhaba! Ben Alper. Bartın Üniversitesi Bilgisayar Mühendisliği öğrencisiyim. Yazılım geliştirmeyi ve yeni teknolojilerle çalışmayı çok seviyorum! Bu uygulama .NET MAUI ödevim için hazırlandı. 👋"
+                   FontSize="17"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center"
+                   TextColor="#333" />
+
+            <Frame BackgroundColor="#F3F7FF" CornerRadius="20" Padding="16" HasShadow="True">
+                <Label Text="Sıcak bir karşılama! 😊&#10;Bugün de birlikte harika şeyler başarabiliriz!"
+                       FontSize="18"
+                       HorizontalTextAlignment="Center"
+                       TextColor="#1976D2"/>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

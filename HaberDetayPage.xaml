@@ -1,0 +1,58 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlperAcikogoz_Odev3.HaberDetayPage"
+             Title="Haber Detayı"
+             BackgroundColor="#F7F9FB">
+    <ScrollView>
+        <VerticalStackLayout Padding="22,18,22,18" Spacing="18">
+
+            <!-- Geri Butonu -->
+            <Button Text="← Geri Dön" Clicked="OnBackClicked"
+                    BackgroundColor="#ececec" TextColor="#1976D2" WidthRequest="110"
+                    CornerRadius="14" HorizontalOptions="Start"/>
+
+            <!-- Başlık -->
+            <Label x:Name="BaslikLabel"
+                   FontSize="22"
+                   FontAttributes="Bold"
+                   TextColor="#223"
+                   HorizontalTextAlignment="Center"
+                   LineBreakMode="WordWrap"/>
+
+            <!-- Tarih ve Kaynak Badge -->
+            <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                <Label x:Name="TarihLabel"
+                       FontSize="13"
+                       TextColor="#888"
+                       HorizontalTextAlignment="Center"/>
+                <Frame BackgroundColor="#1976D2"
+                       CornerRadius="9"
+                       Padding="10,2"
+                       HasShadow="False"
+                       VerticalOptions="Center">
+                    <Label x:Name="KaynakLabel"
+                           FontSize="13"
+                           TextColor="White"
+                           HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center"/>
+                </Frame>
+            </HorizontalStackLayout>
+
+            <!-- Haber gövdesi -->
+            <Frame CornerRadius="14" Padding="16" BackgroundColor="#f0f4f9">
+                <Label x:Name="OzetLabel"
+                       FontSize="16"
+                       TextColor="#444"
+                       LineBreakMode="WordWrap"/>
+            </Frame>
+
+            <!-- Paylaş & Tarayıcıda Aç Butonları -->
+            <HorizontalStackLayout Spacing="18" Padding="0,6,0,0" HorizontalOptions="Center">
+                <Button Text="Paylaş" Clicked="OnPaylasClicked"
+                        BackgroundColor="#1976D2" TextColor="White" CornerRadius="18" WidthRequest="120"/>
+                <Button Text="Tarayıcıda Aç" Clicked="OnTarayiciClicked"
+                        BackgroundColor="#4caf50" TextColor="White" CornerRadius="18" WidthRequest="140"/>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

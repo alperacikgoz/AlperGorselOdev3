@@ -1,0 +1,12 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlperAcikogoz_Odev3.GorevDetayPage"
+             Title="Görev Detayı">
+    <VerticalStackLayout Padding="24" Spacing="14">
+        <Label x:Name="BaslikLabel" FontSize="21" FontAttributes="Bold"/>
+        <Label x:Name="TarihLabel" />
+        <Label x:Name="SaatLabel" />
+        <Label x:Name="DetayLabel" />
+        <Label x:Name="DurumLabel" FontAttributes="Italic" TextColor="Gray"/>
+    </VerticalStackLayout>
+</ContentPage>

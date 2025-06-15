@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="AlperAcikogoz_Odev3.app/AlperAcikogoz_Odev3">
+      <IsAppExtension>false</IsAppExtension>
+      <BCSymbolMapName>AlperAcikogoz_Odev3.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>AlperAcikogoz_Odev3.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/alperacikgoz/AlperAcikogoz_Odev3/obj/Debug/net8.0-ios/iossimulator-arm64/mtouch-symbols.list</SymbolFile>
+      <DSymName>AlperAcikogoz_Odev3.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/alperacikgoz/AlperAcikogoz_Odev3</SourceProjectPath>
+      <IsXPCService></IsXPCService>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

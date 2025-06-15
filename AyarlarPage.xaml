@@ -1,0 +1,20 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlperAcikogoz_Odev3.AyarlarPage"
+             Title="Ayarlar">
+
+    <VerticalStackLayout Padding="28" Spacing="20">
+
+        <Label Text="Uygulama Ayarları" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center"/>
+        
+        <Frame CornerRadius="18" BackgroundColor="#f3f1fb" Padding="18">
+            <HorizontalStackLayout VerticalOptions="Center">
+                <Label Text="Koyu Mod" FontSize="18" VerticalOptions="Center"/>
+                <Switch x:Name="KoyuModSwitch" Toggled="OnKoyuModToggled" HorizontalOptions="EndAndExpand"/>
+            </HorizontalStackLayout>
+        </Frame>
+
+        <Label Text="Koyu/Açık mod ayarı tüm uygulama sayfalarına anında uygulanır."
+               FontSize="13" TextColor="Gray" HorizontalOptions="Center"/>
+    </VerticalStackLayout>
+</ContentPage>

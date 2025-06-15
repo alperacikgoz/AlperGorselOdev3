@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="AlperAcikogoz_Odev3.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:AlperAcikogoz_Odev3">
+
+    <FlyoutItem Title="Giriş" Route="MainPage">
+    <ShellContent Title="Giriş" ContentTemplate="{DataTemplate local:MainPage}" />
+</FlyoutItem>
+    <FlyoutItem Title="Kurlar">
+        <ShellContent Title="Kurlar" ContentTemplate="{DataTemplate local:KurlarPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Haberler">
+        <ShellContent Title="Haberler" ContentTemplate="{DataTemplate local:HaberlerPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Hava Durumu">
+        <ShellContent Title="Hava Durumu" ContentTemplate="{DataTemplate local:HavaDurumuPage}" />
+    </FlyoutItem>
+
+    <!-- BURASI DÜZENLENDİ -->
+    <FlyoutItem Title="Yapılacaklar">
+        <ShellContent Title="Yapılacaklar" ContentTemplate="{DataTemplate local:GorevlerPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Ayarlar">
+        <ShellContent Title="Ayarlar" ContentTemplate="{DataTemplate local:AyarlarPage}" />
+    </FlyoutItem>
+
+    <MenuItem Text="Giriş Yap" Clicked="OnLoginMenuClicked" />
+</Shell>

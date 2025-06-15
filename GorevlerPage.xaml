@@ -1,0 +1,34 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlperAcikogoz_Odev3.GorevlerPage"
+             Title="Yapılacaklar">
+    <VerticalStackLayout Padding="18" Spacing="10">
+        <Button Text="Görev Ekle" Clicked="OnEkleClicked" BackgroundColor="#8F72F6" TextColor="White" />
+
+        <CollectionView x:Name="GorevlerList" SelectionMode="Single" Margin="0,8,0,0">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame CornerRadius="16" Margin="0,0,0,8" BackgroundColor="#f4f2fd" HasShadow="True">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="auto"/>
+                            </Grid.ColumnDefinitions>
+                            <StackLayout Grid.Column="0">
+                                <Label Text="{Binding Baslik}" FontSize="19" FontAttributes="Bold" />
+                                <Label Text="{Binding Detay}" FontSize="14" LineBreakMode="TailTruncation" />
+                                <Label Text="{Binding Tarih, StringFormat='{0:dd.MM.yyyy}'}" FontSize="13" TextColor="Gray"/>
+                                <Label Text="{Binding Saat, StringFormat='{0:hh\\:mm}'}" FontSize="13" TextColor="Gray"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" Grid.Column="1" Spacing="6">
+                                <CheckBox IsChecked="{Binding Yapildi}" CheckedChanged="OnCheckChanged" />
+                                <Button Text="Detay" Padding="4,0" Clicked="OnDetayClicked" CommandParameter="{Binding Id}" BackgroundColor="#D1C4E9" />
+                                <Button Text="Sil" Padding="4,0" Clicked="OnSilClicked" CommandParameter="{Binding Id}" BackgroundColor="#FFB4B4"/>
+                            </StackLayout>
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
+</ContentPage>
